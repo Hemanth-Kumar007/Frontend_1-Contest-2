@@ -1,0 +1,86 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: #727272;
+    padding: 20px;
+}
+
+#nav-right>a{   
+    text-decoration: none;
+    color: black;
+}
+
+#nav-right>button{
+    border-radius: 10px;
+    height: 30px;
+    width: 90px;
+    background-color: #184655;
+    color: white;
+}
+
+#first-sec{
+    background-image: url("images/Rectangle\ 26.jpg");
+    background-size: cover;
+}
+
+#second-sec{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #E7FCEF;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#second-sec-img{
+    border-radius: 20px;
+    width: 40%;
+    /* height: 20%; */
+    overflow: hidden;
+    /* box-sizing: border-box; */
+}
+
+#second-sec-text{
+    width: 40%;
+    box-sizing: border-box;
+}
+
+#third-sec{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.third-sec-card>img{
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+    text-align: center;
+}
+
+.third-sec-card>h3{
+    text-align: center;
+}
+
+.third-sec-card>p, .third-sec-card>span{
+    padding: 10px;
+}
+
+.third-sec-card{
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 10px;   
+}
+
+#fourth-sec{
+    background-image: url("images/Rectangle\ 31.jpg");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
