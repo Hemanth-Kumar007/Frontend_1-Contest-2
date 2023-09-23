@@ -11,19 +11,74 @@
 #nav-right>a{   
     text-decoration: none;
     color: black;
+    margin-right: 10px;
 }
 
 #nav-right>button{
     border-radius: 10px;
-    height: 30px;
-    width: 90px;
+    border: none;
+    height: 40px;
+    width: 120px;
     background-color: #184655;
     color: white;
+    font-family: Roboto;
+    font-size: 20px;
 }
 
 #first-sec{
-    background-image: url("images/Rectangle\ 26.jpg");
-    background-size: cover;
+    background-image: url("images/Rectangle\ 31.jpg");
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+#first-sec-desc{
+    color: #184655;
+    font-size: 45px;
+    font-family: Poppins;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-left: 100px;
+}
+
+#first-sec-image{
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+#mag-glass{
+    margin-right: 10px;
+}
+
+#grid1{
+    color: #727272;
+    font-size: 22px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 10.96px;
+    word-wrap: break-word;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+#grid2{
+    color: white;
+    font-size: 22px;
+    font-family: Poppins;
+    font-weight: 600;
+    background-color: #184655;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+#search-bar{
+    height: 50px;
+    width: 400px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 100px;
 }
 
 #second-sec{
@@ -33,6 +88,8 @@
     background-color: #E7FCEF;
     padding: 30px;
     box-sizing: border-box;
+
+
 }
 
 #second-sec-img{
@@ -41,11 +98,19 @@
     /* height: 20%; */
     overflow: hidden;
     /* box-sizing: border-box; */
+    margin-left: 50px;
 }
 
 #second-sec-text{
     width: 40%;
     box-sizing: border-box;
+}
+
+.author-date{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    color: gray;
 }
 
 #third-sec{
@@ -73,7 +138,8 @@
 .third-sec-card{
     margin: 10px;
     background-color: lightgray;
-    border-radius: 10px;   
+    border-radius: 10px; 
+    box-shadow: 5px 5px 5px gray;  
 }
 
 #fourth-sec{
@@ -84,3 +150,42 @@
     padding: 10px;
 }
 
+#f1{
+    color: black;
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: 300;
+    word-wrap: break-word;  
+}
+
+#f2{
+    color: black;
+    font-size: 57px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+#f3{
+    color: black;
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+#f-btn{
+    color: white;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+    border-radius: 20px;
+    background: linear-gradient(to right, #2c56aa, #3bb08b);
+    padding: 10px;
+    border: none;
+}
+
+#f-img{
+    border-radius: 10px;
+}
