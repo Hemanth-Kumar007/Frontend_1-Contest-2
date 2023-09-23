@@ -28,8 +28,10 @@
 #first-sec{
     background-image: url("images/Rectangle\ 31.jpg");
     display: grid;
+    /* width: 100vw; */
     grid-template-columns: 1fr 1fr;
     padding: 20px;
+    border-radius: 10px;
 }
 
 #first-sec-desc{
@@ -88,8 +90,7 @@
     background-color: #E7FCEF;
     padding: 30px;
     box-sizing: border-box;
-
-
+    border-radius: 10px;;
 }
 
 #second-sec-img{
@@ -129,10 +130,13 @@
 
 .third-sec-card>h3{
     text-align: center;
+    font-family: Segoe UI;
+    font-size: 25px;
 }
 
-.third-sec-card>p, .third-sec-card>span{
+.third-sec-card>p{
     padding: 10px;
+    font-family: Segoe UI;
 }
 
 .third-sec-card{
@@ -148,6 +152,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    border-radius: 10px;
 }
 
 #f1{
