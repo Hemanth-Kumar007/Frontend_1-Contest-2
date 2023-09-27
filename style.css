@@ -1,4 +1,10 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
 .navigation{
+    /* width: 100%;  */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -194,3 +200,19 @@
 #f-img{
     border-radius: 10px;
 }
+
+/* @media screen and (max-width: 550px){
+
+    *{
+        margin-inline: auto;
+    }
+
+    .navigation{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #first-sec{
+        grid-template-columns: 1fr;
+    }
+} */
